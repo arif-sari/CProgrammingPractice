@@ -3,8 +3,8 @@
 
 int main(){
 
-int x = 55;
-int y = 535;
+int x ;
+int y ;
 
     /*if(x>y){ // birinci duruma bakıyor X y den büyükmü
 
@@ -17,6 +17,10 @@ int y = 535;
     }
     */
 
+    printf("X sayısını giriniz: ");
+    scanf("%d",&x);
+    printf("Y sayısını giriniz: ");
+    scanf("%d",&y);
     if(x>y)
     {
         printf("x y den büyük");
