@@ -6,13 +6,17 @@ int main(){
 int x ;
 int y ;
 
-    /*if(x>y){ // birinci duruma bakıyor X y den büyükmü
+    /*if(x>y)
+    { // birinci koşula bakıyor x y den büyük mü
 
         printf("x y'den buyuktur");
 
     }
+    else if (x==y)  // else if istenildiği kadar kullanılabilir
+    { // ikinci koşula bakıyor x y ye eşitmi
+        printf("x y'ye esittit");
     else
-    { // x in yden küçük ve eşit olma durumunda burası çalışır
+    { // koşul 3
         printf("x y den kucuktur yada esittir");
     }
     */
